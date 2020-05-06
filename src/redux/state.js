@@ -26,7 +26,14 @@ let state = {
             {id: 5, message: 'Do you like React?'},
             {id: 6, message: 'Have you been in Spain?'}
           ] 
-    }
+         },
+
+        sidebar: [
+            {id: 1, name: 'Daniel'},
+            {id: 2, name: 'Mikhail'},
+            {id: 3, name: 'Olga'}
+        ]
+    
 }
 
 export default state;
