@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Friends.module.css';
+//import s from './Friends.module.css';
 import FriendItem from './Friend/FriendItem';
 
 const Friends = (props) => {
@@ -11,7 +11,7 @@ const Friends = (props) => {
     return (
       <div>
         <h1>Friends</h1>
-        <p>{friendsElement}</p>
+        {friendsElement}
     </div>
     )
 }
