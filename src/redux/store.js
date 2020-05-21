@@ -34,11 +34,12 @@ let store = {
           newMessageBody: ""
          },
 
-        sidebar: [
+        sidebar: {
+          friends:[
             {id: 1, name: 'Daniel'},
             {id: 2, name: 'Mikhail'},
             {id: 3, name: 'Olga'}
-        ]   
+        ] }  
   },
   _callSubscriber() {
     console.log ('State updated')

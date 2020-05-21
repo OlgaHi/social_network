@@ -12,12 +12,12 @@ import Settings from './components/Settings/Settings';
 
 
 const App = (props) => {
- 
+
   return (
     
     <div className='app-wrapper'>
       <Header />
-      <Navbar state={props.state.sidebar}/>
+      <Navbar store={props.store} dispatch={props.dispatch}/>
 
       <div className='app-wrapper-content'>
          <Route path='/dialogs' render={ () => <Dialogs store={props.store} />}/>
