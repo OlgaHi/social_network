@@ -11,7 +11,10 @@ let initialState = {
 const sidebarReducer = (state = initialState,action) => {
     switch (action.type) {
         case SHOW_FRIEND:
-        return state;
+        return {
+            ...state,
+            sidebar: {...state.sidebar}
+        } 
 
     default:
     return state;
