@@ -6,7 +6,7 @@ const ProfileInfo = () => {
     return (
       <div>
         <div>
-        <img src='https://www.newcybersource.com/wp-content/uploads/2018/05/network-solutions-subheader.jpg'/>
+        <img alt = '' src='https://www.newcybersource.com/wp-content/uploads/2018/05/network-solutions-subheader.jpg'/>
          </div>
         <div className={s.descriptionBlock}>
           ava + description
